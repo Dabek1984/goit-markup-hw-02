@@ -1,3 +1,75 @@
-.product {
-  color: red;
+.contacts-header-footer:hover,
+:focus {
+  color: blue;
+}
+
+* {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+.body {
+  font-family: "Roboto", "Open Sans", "system-ui", sans-serif;
+  color: #212121;
+}
+.body li {
+  font: inherit;
+  color: inherit;
+}
+.company-name,
+.company-name-1 {
+  font-family: "Relaway";
+  font-size: 26px;
+  line-height: 1.9;
+  color: #2196f3;
+}
+.company-name-1 {
+  color: #000000;
+}
+.font-class-1,
+.font-class-1a,
+.font-class-1b {
+  font-size: 14px;
+  line-height: 1.02;
+  color: #212121;
+  font-weight: 500px;
+}
+.font-class-1a {
+  color: #2196f3;
+}
+.font-class-1b {
+  color: #757575;
+}
+.font-class-2,
+.font-class-2a {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500px;
+}
+.font-class-2a {
+  color: #ffffff;
+  background-color: blue;
+  border: none;
+}
+.font-class-3,
+.font-class-3a {
+  font-size: 18px;
+  line-height: 32.25;
+  font-weight: 700px;
+}
+.font-class-3a {
+  color: #757575;
+}
+.font-class-4 {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
 }

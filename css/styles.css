@@ -1,4 +1,4 @@
-.contacts-header-footer:hover,
+.contacts-header-footer :hover,
 :focus {
   color: blue;
 }
@@ -62,14 +62,19 @@ button {
 .font-class-3,
 .font-class-3a {
   font-size: 18px;
-  line-height: 32.25;
+  line-height: 2;
   font-weight: 700px;
 }
 .font-class-3a {
   color: #757575;
+  font-size: 16px;
+  line-height: 1.8;
 }
 .font-class-4 {
   font-size: 14px;
   line-height: 1.5;
   color: #ffffff;
+}
+:root {
+  --text-color: ;
 }
